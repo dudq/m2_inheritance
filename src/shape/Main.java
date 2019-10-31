@@ -35,5 +35,11 @@ public class Main {
         System.out.println("Area: " + square.getArea());
         System.out.println("Perimeter: " + square.getPerimeter());
         System.out.println(square.toString());
+
+        System.out.println("----------------------------------------");
+
+        Cylinder cylinder = new Cylinder("red", false, 3.0, 3.0);
+        System.out.println("Volume: " + cylinder.getVolume());
+        System.out.println(cylinder.toString());
     }
 }
