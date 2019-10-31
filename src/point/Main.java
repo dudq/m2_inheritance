@@ -14,5 +14,11 @@ public class Main {
         System.out.println(point3D.toString());
         point3D.setXYZ(1.0f, 1.0f, 1.0f);
         System.out.println(point3D.toString());
+
+        System.out.println("------------------------------");
+
+        MovablePoint movablePoint = new MovablePoint(3.0f, 4.0f);
+        System.out.println(movablePoint.toString());
+        System.out.println(movablePoint.move().toString());
     }
 }
